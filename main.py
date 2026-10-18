@@ -21,8 +21,7 @@ def classificar(client, contexto, instrucao, opcoes):
 # Simulação da transcrição de um áudio enviado pelo WhatsApp pelo engenheiro na obra
 transcricao_audio = """
 E aí pessoal do financeiro, acabei de liberar a medição do empreiteiro da alvenaria, 
-o seu Carlos. Deu R$ 4.500 pela etapa do bloco B. Podem lançar como pagamento de 
-mão de obra e transferir no PIX dele até às 17h para não parar a equipe amanhã.
+o seu Carlos. Deu R$ 4.500 pela etapa do bloco B. 
 """
 
 with TypeSafeClient() as client:
